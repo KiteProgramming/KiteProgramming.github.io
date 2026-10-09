@@ -25,7 +25,8 @@ function Pipeline() {
 const shipLog: { label: string; live: boolean }[] = [
   { label: 'padelclubleague.com', live: true },
   { label: 'App Store · Padel Club League', live: true },
-  { label: 'Google Play · Padel Club League', live: false },
+  { label: 'Google Play · Padel Club League', live: true },
+  { label: 'NoveltySports · iOS + Android', live: true },
   { label: 'Habit Challenger · iOS + Android', live: true },
   { label: 'moivajewellery.com', live: true },
   { label: "mayasflavours.com", live: true },

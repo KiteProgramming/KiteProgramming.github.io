@@ -68,7 +68,7 @@ export const pipeline = ['schema', 'auth', 'UI', 'release', 'deploy'] as const
 
 export const stats: Stat[] = [
   { value: '5+', label: 'years shipping' },
-  { value: '7', label: 'products shipped' },
+  { value: '8', label: 'products shipped' },
   { value: 'iOS + Android', label: 'store releases' },
 ]
 
@@ -138,8 +138,22 @@ export const projects: Project[] = [
     links: [
       { label: 'padelclubleague.com', href: 'https://padelclubleague.com/', kind: 'web' },
       { label: 'App Store', href: 'https://apps.apple.com/us/app/padel-club-league/id6760415427', kind: 'apple' },
+      { label: 'Google Play', href: 'https://play.google.com/store/apps/details?id=com.noveltyclubleague.app', kind: 'google' },
     ],
-    comingSoon: 'Google Play soon',
+  },
+  {
+    name: 'NoveltySports',
+    category: 'Web + mobile app',
+    status: 'Live',
+    studio: true,
+    blurb:
+      'Sports academy management for athletes, teams, schedules, attendance, and fees, with a parent mobile app and bilingual Greek-English announcements to keep families informed.',
+    tech: ['React', 'TypeScript', 'Supabase', 'React Native', 'Expo', 'EL / EN'],
+    links: [
+      { label: 'noveltysportscy.com', href: 'https://noveltysportscy.com/', kind: 'web' },
+      { label: 'App Store', href: 'https://apps.apple.com/app/id6789479338', kind: 'apple' },
+      { label: 'Google Play', href: 'https://play.google.com/store/apps/details?id=com.novelty.sports', kind: 'google' },
+    ],
   },
   {
     name: 'Habit Challenger',
