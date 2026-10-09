@@ -70,8 +70,8 @@ export default function Work() {
           Products I&rsquo;ve <span className="gradient-text">shipped</span>.
         </h2>
         <p className="reveal delay-1 mb-12 max-w-2xl text-slate-300">
-          Real, live products &mdash; built end-to-end and running in production. Four are mine;
-          three are part of the PMP Novelty Solutions studio suite.
+          Real, live products &mdash; built end-to-end and running in production, from web and
+          mobile apps to the PMP Novelty Solutions studio suite.
         </p>
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
