@@ -1,7 +1,7 @@
 # Tasos Panayi — Portfolio
 
 Personal portfolio of **Tasos Panayi**, Senior Software Engineer (Nicosia, Cyprus), and founder of
-[PMP Novelty Solutions](https://pmpnoveltysolutions.com).
+[Novelty Business Solutions](https://pmpnoveltysolutions.com).
 
 **Live:** https://kiteprogramming.github.io
 
