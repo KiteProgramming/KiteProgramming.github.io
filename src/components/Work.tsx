@@ -24,7 +24,7 @@ function Card({ p }: { p: Project }) {
       <h3 className="text-xl font-semibold text-white">{p.name}</h3>
       {p.studio && (
         <span className="mt-2 inline-flex w-fit items-center rounded-full border border-brand-glow/25 bg-brand-blue/10 px-2.5 py-1 font-mono text-[10px] uppercase tracking-wider text-brand-glow">
-          PMP Novelty Solutions
+          Novelty Business Solutions
         </span>
       )}
 
@@ -71,7 +71,7 @@ export default function Work() {
         </h2>
         <p className="reveal delay-1 mb-12 max-w-2xl text-slate-300">
           Real, live products &mdash; built end-to-end and running in production, from web and
-          mobile apps to the PMP Novelty Solutions studio suite.
+          mobile apps to the Novelty Business Solutions studio suite.
         </p>
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

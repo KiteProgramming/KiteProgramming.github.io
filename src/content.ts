@@ -32,7 +32,7 @@ export interface Project {
   status: 'Live' | 'In testing'
   /** Shown as a muted "coming soon" pill (e.g. a store release still in review). */
   comingSoon?: string
-  /** Marks a product built under the PMP Novelty Solutions studio. */
+  /** Marks a product built under the Novelty Business Solutions studio. */
   studio?: boolean
 }
 
@@ -54,9 +54,9 @@ export const identity = {
   summary:
     'Senior software engineer with 5+ years across fintech, Forex trading platforms, and modern SaaS. Strong command of TypeScript, React, and Supabase, alongside Python, Node.js, ColdFusion, and AWS. I care about clean architecture, performance, and software people actually enjoy using.',
   founderNote:
-    'Independently, I build and run PMP Novelty Solutions — a small studio that ships ready-made products for real businesses: online shops, booking systems, and landing and event sites.',
+    'Independently, I build and run Novelty Business Solutions — a small studio that ships ready-made products for real businesses: online shops, booking systems, and landing and event sites.',
   studio: {
-    name: 'PMP Novelty Solutions',
+    name: 'Novelty Business Solutions',
     url: 'https://pmpnoveltysolutions.com',
     linkedin:
       'https://www.linkedin.com/company/pm-panayi-novelty-business-solutions/',
